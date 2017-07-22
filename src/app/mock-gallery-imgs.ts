@@ -1,87 +1,87 @@
 export const IMG_LOAD_AMOUNT = 10;
 export const GALLERY_IMGS = [
   {
-    image:"../../assets/gallery/interior/580dd5657685b.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/580dd5657685b.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/594ce6aac1a1a.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/594ce6aac1a1a.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/594fb58a7c758.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/594fb58a7c758.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/595a0f8681357.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/595a0f8681357.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/595ad0131182c.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/595ad0131182c.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/595e8e750200c.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/595e8e750200c.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/5947d38fad937.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/5947d38fad937.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/59521c7d7e262.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/59521c7d7e262.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/594252785cde3.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/594252785cde3.jpeg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/interior/cam_14_.jpg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/interior/cam_14_.jpg",
     type:"interior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/56ff78ea74143.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/56ff78ea74143.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/58ea4cfcb6878.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/58ea4cfcb6878.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/595a6020d28e0.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/595a6020d28e0.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/595b432de60e5.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/595b432de60e5.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/5953a4b566554.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/5953a4b566554.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/5953a40b71e9d.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/5953a40b71e9d.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/5954bb7e318c6.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/5954bb7e318c6.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/5963d07cc61d0.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/5963d07cc61d0.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/594651f3aca90.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/594651f3aca90.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/exterior/575851029d3d1.jpeg",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/exterior/575851029d3d1.jpeg",
     type:"exterior",id:0
   },
   {
-    image:"../../assets/gallery/last_picture.png",
+    image:"https://just2guys.github.io/iwon-app/assets/gallery/last_picture.png",
     type:"none",id:0
   }
 ];
