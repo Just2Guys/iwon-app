@@ -1,0 +1,52 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+.gallery {
+  width: 100%;
+}
+
+.masonry-brick {
+  width:20%;
+}
+
+.gallery-item{
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-img{
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(1);
+  -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+       -o-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+}
+
+.gallery-img:hover {
+  filter: grayscale(0);
+}
+
+.masonry_main {
+  height: 105%;
+}
+
+#load_button, #autoload_button {
+  position: fixed;
+  bottom: 5px;
+  height: 40px;
+  background-color: gray;
+  opacity: 0.6;
+  border-radius: 100px;
+  border: solid 2px black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
