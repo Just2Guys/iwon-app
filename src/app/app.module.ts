@@ -19,8 +19,8 @@ import { PartnershipComponent } from './partnership.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SliderComponent,
     HeaderComponent,
+    SliderComponent,
     AboutUsComponent,
     GalleryComponent,
     GalleryInteriorComponent,
@@ -47,12 +47,12 @@ import { PartnershipComponent } from './partnership.component';
         component: GalleryComponent
       },
       {
-       path: 'projects/interior',
-       component: GalleryInteriorComponent
+        path: 'projects/interior',
+        component: GalleryInteriorComponent
       },
       {
-       path: 'projects/exterior',
-       component: GalleryExteriorComponent
+        path: 'projects/exterior',
+        component: GalleryExteriorComponent
       },
       {
         path: 'partnership',
@@ -64,3 +64,5 @@ import { PartnershipComponent } from './partnership.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+platformBrowserDynamic().bootstrapModule(AppModule);

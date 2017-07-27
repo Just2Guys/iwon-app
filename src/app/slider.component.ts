@@ -13,19 +13,19 @@ export class SliderComponent {
   public pageCount : number = 0;
   public pages = [
 		{
-			image:"https://just2guys.github.io/iwon-app/assets/slider/1.jpg"
+			image:"./assets/slider/1.jpg"
 		},
 		{
-			image:"https://just2guys.github.io/iwon-app/assets/slider/2.jpg"
+			image:"./assets/slider/2.jpg"
 		},
 		{
-			image:"https://just2guys.github.io/iwon-app/assets/slider/3.jpg"
+			image:"./assets/slider/3.jpg"
 		},
 		{
-			image:"https://just2guys.github.io/iwon-app/assets/slider/4.jpg"
+			image:"./assets/slider/4.jpg"
 		},
 		{
-			image:"https://just2guys.github.io/iwon-app/assets/slider/5.jpg"
+			image:"./assets/slider/5.jpg"
 		}
 	];
 

@@ -54,9 +54,16 @@ export class GalleryInteriorComponent {
   document_height_standart;
   document_height;
   layoutsComplete=0;
+  user_computer;
+  user_mobile;
   public img_array=[];
   public items=[];
   constructor() {
+    if(matchMedia) {
+      var mq=window.matchMedia("(min-width: 601px)");
+      mq.addListener(this.WidthChange);
+      this.WidthChange(mq);
+    }
     this.document_height_standart = Math.max(
       document.body.scrollHeight, document.documentElement.scrollHeight,
       document.body.offsetHeight, document.documentElement.offsetHeight,
@@ -81,14 +88,23 @@ export class GalleryInteriorComponent {
       this.slider_next_button_element=document.getElementById("button_next");
     }
   }
+  WidthChange(mq) {
+    if(mq.matches) {
+      this.user_computer=true;
+      this.user_mobile=false;
+    } else {
+      this.user_computer=false;
+      this.user_mobile=true;
+    }
+  }
   createSlider() {
     if(this.slider_position-1<1) {
-      this.slider_img_left=this.items[this.slider_maxposition+this.slider_position-2].image;
+      this.slider_img_left=this.items[this.slider_maxposition+this.slider_position-3].image;
     }else{this.slider_img_left=this.items[this.slider_position-2].image;}
 
     this.slider_img_center=this.items[this.slider_position-1].image;
 
-    if(this.slider_position+1>this.slider_maxposition) {
+    if(this.slider_position+2>this.slider_maxposition) {
       this.slider_img_right=this.items[0].image;
     }else{this.slider_img_right=this.items[this.slider_position].image;}
   }
@@ -110,7 +126,7 @@ export class GalleryInteriorComponent {
       this.slider_img_element_center_active.style.left="50%";
       this.slider_img_element_right_active.style.left="150%";
       this.slider_position+=1;
-      if(this.slider_position > this.slider_maxposition) {this.slider_position=1}
+      if(this.slider_position === this.slider_maxposition) {this.slider_position=1}
       this.createSlider();
     },201);
   }
@@ -132,7 +148,7 @@ export class GalleryInteriorComponent {
       this.slider_img_element_center_active.style.left="50%";
       this.slider_img_element_right_overflow.style.left="150%";
       this.slider_position-=1;
-      if(this.slider_position === 0) {this.slider_position=this.slider_maxposition}
+      if(this.slider_position === 0) {this.slider_position=this.slider_maxposition-1}
       this.createSlider();
     },201);
   }
@@ -172,10 +188,12 @@ export class GalleryInteriorComponent {
     },201);
   }
   sliderImgMouseOver() {
-    this.slider_next_button_element.style.opacity="0.3";
+    if(this.user_computer)
+      this.slider_next_button_element.style.opacity="0.3";
   }
   sliderImgMouseLeave() {
-    this.slider_next_button_element.style.opacity="0";
+    if(this.user_computer)
+      this.slider_next_button_element.style.opacity="0";
   }
   masonryImgLoaded() {
     this.layoutsComplete+=1;
